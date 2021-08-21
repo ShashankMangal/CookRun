@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_name">
+        <item>Burger</item>
+        <item>Cheese Pizza</item>
+        <item>Vegetable Chowmein</item>
+        <item>French Fries</item>
+        <item>Vegetable Momos</item>
+        <item>Mushroom Biryani</item>
+        <item>Potato Sandwich</item>
+        <item>Egg Sandwich</item>
+        <item>Vegetable Pasta</item>
+    </string-array>
+
+</resources>

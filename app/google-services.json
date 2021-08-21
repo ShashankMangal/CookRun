@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862351413565",
+    "project_id": "cookrun-a3abc",
+    "storage_bucket": "cookrun-a3abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862351413565:android:e7bd169437940a1d98b554",
+        "android_client_info": {
+          "package_name": "com.example.cookrun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862351413565-nob2f2q6k974vc8si14prr5btlktk5nm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI31eeUWIdJyMqQhJ8QiTFQdnYx-nee1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862351413565-nob2f2q6k974vc8si14prr5btlktk5nm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

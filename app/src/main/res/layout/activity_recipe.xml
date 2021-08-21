@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashback"
+    tools:context=".RecipeActivity">
+
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Recipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="36sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/recipeLottie"
+        android:layout_marginBottom="10dp"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/recipeLottie"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/custom_lottie"
+        app:lottie_loop="true"
+        app:layout_constraintTop_toBottomOf="@+id/recipeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/recipeOfCook"
+
+        />
+
+    <TextView
+        android:id="@+id/recipeOfCook"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fadeScrollbars="true"
+        android:fontFamily="@font/aclonica"
+        android:padding="15dp"
+        android:scrollbars="vertical"
+        android:text="Step 1 Pressure cook carrots, peas and corn To make the burger patty, pressure cook the carrot, peas and sweet corn for 1 whistle or until soft. \n\n Step 2 Add the spices Add the cooked vegetables, chopped onions, red chilli powder, lemon juice, garam masala powder, salt and ginger-garlic paste to a large bowl. \n\n Step 3 Add mashed potatoes Add lemon juice and mashed potatoes in the bowl, mix well until evenly combined. Shape the mixture into small/medium patties. \n\n Step 4 Shallow fry the patties Now heat oil in a pan over medium flame. Roll the prepared patties in the breadcrumbs and shallow fry until golden brown on both sides. \n\n Step 5 Keep aside Remove and keep aside. \n\n Step 6 Prepare the burger Take one half of the burger bun. Spread some butter and place the lettuce on top. \n\n Step 7 Add slices onions, cucumber and tomatoes Place the prepared vegetable patty on top. Top up with slices of onion, tomato, cucumber and cheese. If you want to make it even more delicious and healthy replace cheese with eggless mayonnaise. \n\n Step 8 Burger is ready Cover it with the other half of the burger bun. If desired, add some ketchup on top. Secure it with a toothpick if desired. \n\n Step 9 Serve! Serve at once with french fries. Make sure you like this recipe, rate it and let us know in the comments how it turned out to be."
+        android:textAlignment="inherit"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeLottie" />
+</androidx.constraintlayout.widget.ConstraintLayout>
